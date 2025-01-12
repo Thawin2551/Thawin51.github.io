@@ -28,13 +28,14 @@ body{
 .header{
     /*
     */
-
+    transition: 0.5s ease-in-out;
     top: -1px;
     left: 0;
     width: 100%;
     padding: 4rem 12% 4rem;
     background: #ffffff transparent;
-    
+    background-color: white;
+    background-color: var(--base-color);   ;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -48,7 +49,7 @@ body{
     color: #333;
     font-weight: 800;
     cursor: pointer;
-    transition: 0.5s ease;
+    transition: 0.5s ease-in-out;
     text-shadow: 1px 1px 1px #D3D3D3;
     color:var(--text-color);
     position: relative;
@@ -71,8 +72,8 @@ body{
 
 
 .navbar{
-    color:var(--text-color)
-    
+    color:var(--text-color);
+    transition: 0.5s ease-in-out;
 }
 
 .navbar a{
